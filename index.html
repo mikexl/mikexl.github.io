@@ -2,15 +2,8 @@
 layout: default
 ---
 
-
     <div id="container">
       <div class="inner">
-
-        <header>
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-        </header>
-
         <footer>
             {% if site.facebook %}
               <a href="http://facebook.com/{{ site.facebook }}"> fb </a>
@@ -24,7 +17,6 @@ layout: default
               <a href="http://github.com/{{ site.github }}"> gh </a>
             {% endif %}  
         </footer>
-
       </div>
     </div>
 
