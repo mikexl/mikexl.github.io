@@ -35,7 +35,7 @@ layout: none
             {% endif %} 
            | 
             {% if site.blog %}
-              <a href="{{ site.blog }}"> b </a>
+              <a href="{{ author.url }}/{{ site.blog }}"> b </a>
             {% endif %} 
         </footer>
 
