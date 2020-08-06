@@ -33,6 +33,10 @@ layout: none
             {% if site.linkedin %}
               <a href="http://linkedin.com/in/{{ site.linkedin }}"> in </a>
             {% endif %} 
+           | 
+            {% if site.blog %}
+              <a href="{{ site.blog }}"> b </a>
+            {% endif %} 
         </footer>
 
 
